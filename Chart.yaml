@@ -1,0 +1,18 @@
+apiVersion: v2
+appVersion: 6.4.2
+description: Run QuestDB on Kubernetes via Helm
+home: https://questdb.io
+icon: https://questdb.io/img/favicon.png
+keywords:
+- questdb
+- database
+- timeseries
+- sql
+maintainers:
+- email: containers@questdb.io
+  name: QuestDB Team
+name: questdb
+sources:
+- https://github.com/questdb/questdb-kubernetes
+type: application
+version: 0.20.4
