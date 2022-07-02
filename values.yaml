@@ -32,7 +32,7 @@ service:
 persistence:
   enabled: true
   accessMode: ReadWriteOnce
-  size: 20Gi
+  size: 50Gi
   # Uncomment existingClaim to enable existing pvc to be mounted for db storage
   # size and accessMode will be ignored
   # existiung pvc needs to be in the namespace where questdb will be deployed
